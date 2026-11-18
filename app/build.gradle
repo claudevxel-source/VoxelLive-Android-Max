@@ -35,7 +35,7 @@ chaquopy {
             // Install this pure-Python compatibility package from the project first.
             // Chaquopy 17 uses binary-only installs from package indexes, while the
             // public protobuf3-to-dict 0.1.5 release is sdist-only.
-            install("src/main/python/vendor/protobuf3_to_dict")
+            install("./src/main/python/vendor/protobuf3_to_dict")
             install("-r", "src/main/python/requirements.txt")
         }
     }
